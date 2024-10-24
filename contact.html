@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Vogue-logoAsset 2.svg" type="image/x-icon">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <title>Vogue-Vault | Contact</title>
+</head>
+<body>
+    <nav class="page-head">
+        <header id="head">
+            <div class="navigation">
+                <img src="assets/Vogue-logoAsset 2.svg" alt="Vogue-Logo" class="logo">
+                <div class="links">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a> </li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search-bar">
+                <form action="/search" method="GET">
+                    <label for="search-field">Search:</label>
+                    <input type="search" id="search-field" name="query" placeholder="articles or projects...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+    </nav>
+        <hr>
+        <section id="contact-sec">
+            <div class="info">
+                <h2>Contact Us</h2>
+                <div class="call">
+                    <div class="call-icon">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call us</span>
+                    </div>
+                    <p>+254 746 445 209, +254 768 987 928</p>
+                </div>
+                <div class="location">
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location</span>
+                    </div>
+                    <p>324 Kipsigak Building, Nandi, Kapsabet</p>
+                </div>
+                <div class="bussines-hour">
+                    <div class="time-icon">
+                        <fas class="fas fa-clock"></fas>
+                        <span>Bussines Hours</span>
+                    </div>
+                    <p>+254 746 445 209, +254 768 987 928</p>
+                </div>
+            </div>
+
+            <form action="#">
+                <div class="name-form">
+
+                    <fieldset>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" required placeholder="Enter your first name">
+
+                    </fieldset>
+                    <fieldset>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" required placeholder="Enter your last name">
+                    </fieldset>
+                </div>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Enter a valid email address">
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message" rows="10" cols="80"></textarea>
+                </fieldset>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+</body>
+<footer>
+    <div class="one">
+        <h2>Vogue Vault</h2>
+        <small>Wear Your Story, Own Your Style.</small>
+    </div>
+    <div class="two">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="three">
+        <ul>
+            <li><a href="home.html">Services</a></li>
+            <li><a href="contact.html">Support</a></li>
+            <li>
+                <form action="GET">
+                    <div class="newletter">
+                        <label for="newletter">Newsletter</label>
+                        <input type="email" name="newletter" id="newletter" placeholder="Enter your email" autocomplete="email" required>
+                        <button type="submit" name="newletter" title="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </li>
+        </ul>
+    </div>
+</footer>
+</html>
